@@ -1,0 +1,117 @@
+{
+  "code": "SSL_SLF200",
+  "lang": "en",
+  "message": "Available Service List",
+  "data": {
+    "count": 3,
+    "next": null,
+    "previous": null,
+    "results": [
+      {
+        "utility_code": "JaanComputer",
+        "category_name": "ISP",
+        "utility_image": "http://api.sslwireless.com/assets/layouts/layout/img/logo.png",
+        "utility_value": "JaanComputer",
+        "bill_info_required_parameter": [
+          {
+            "max": "50",
+            "min": "1",
+            "name": "customer_no",
+            "type": "text",
+            "level": "Customer No",
+            "required": "required",
+            "sequence": "2",
+            "data_type": "text"
+          },
+          {
+            "max": "13",
+            "min": "11",
+            "name": "mobile_no",
+            "type": "text",
+            "level": "Mobile No",
+            "required": "optional",
+            "sequence": "3",
+            "data_type": "text"
+          }
+        ]
+      },
+      {
+        "utility_code": "FRCommunication",
+        "category_name": "ISP",
+        "utility_image": "http://api.sslwireless.com/assets/layouts/layout/img/logo.png",
+        "utility_value": "FRCommunication",
+        "bill_info_required_parameter": [
+          {
+            "max": "50",
+            "min": "1",
+            "name": "customer_no",
+            "type": "text",
+            "level": "Customer No",
+            "required": "required",
+            "sequence": "2",
+            "data_type": "text"
+          },
+          {
+            "max": "13",
+            "min": "11",
+            "name": "mobile_no",
+            "type": "text",
+            "level": "Mobile No",
+            "required": "optional",
+            "sequence": "3",
+            "data_type": "text"
+          }
+        ]
+      },
+      {
+        "utility_code": "SCBBHS",
+        "category_name": "Utility",
+        "utility_image": "http://api.sslwireless.com/assets/layouts/layout/img/logo.png",
+        "utility_value": "Savar Cantonment Board Boys High School",
+        "bill_info_required_parameter": [
+          {
+            "max": "50",
+            "min": "3",
+            "name": "reference_id",
+            "type": "text",
+            "level": "Reference ID",
+            "required": "required",
+            "sequence": "2",
+            "data_type": "alphanumeric"
+          },
+          {
+            "max": "50",
+            "min": "3",
+            "name": "reference_id",
+            "type": "spinner",
+            "level": "Reference ID",
+            "required": "required",
+            "sequence": "2",
+            "data_type": "alphanumeric"
+          },
+          {
+            "max": "6",
+            "min": "1",
+            "name": "bill_month",
+            "type": "spinner",
+            "level": "Bill Month",
+            "required": "optional",
+            "sequence": "4",
+            "data_type": "numeric"
+          },
+          {
+            "max": "20",
+            "min": "11",
+            "name": "mobile_no",
+            "type": "text",
+            "level": "Mobile No",
+            "required": "optional",
+            "sequence": "2",
+            "data_type": "numeric"
+          }
+        ]
+      }
+    ]
+  }
+}
+
